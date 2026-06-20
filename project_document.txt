@@ -1,0 +1,30 @@
+Abstract
+The Developer Toolkit Orchestrator (Orb) is a Rust-based terminal application utilizing the Ratatui framework to help developers orchestrate command-line tools into automated, visualized workflows. By providing an interactive marketplace of system executables and a graphical node-flow interface, Orb simplifies the construction and monitoring of complex command pipelines directly from the terminal.
+
+Introduction
+Motivation: Managing and chaining together multiple command-line utilities can often become cumbersome and lacks intuitive visual feedback. The motivation is to bring a rich, keyboard-driven graphical interface to the terminal that simplifies tool orchestration without leaving the command line.
+Problem Statement: Traditional terminal environments do not offer a native, visual way to construct, orchestrate, and monitor multi-step command pipelines, leading to an over-reliance on complex shell scripts that are difficult to debug visually.
+Objectives: To build a robust Terminal UI (TUI) that dynamically discovers available tools, allows for AI-driven or manual workflow generation, and provides real-time visual execution of these workflows.
+Existing Works: Traditional shells (Bash, Zsh) rely entirely on text-based script chaining without graphical workflow visualization. Web-based orchestration tools (like Node-RED or n8n) offer visual builders but are heavy and require context-switching away from the terminal.
+Benefits of the proposed work: Increases developer productivity, offers clear and immediate visual feedback for CLI operations, and maintains a lightweight, keyboard-centric interface that feels native to power users.
+
+Requirement specification
+Software requirements:
+- Language: Rust (Edition 2024)
+- Libraries/Crates: ratatui (UI framework), crossterm (terminal backend), rand (RNG)
+- OS: Linux / macOS / Windows (cross-platform compatible terminal)
+
+Hardware requirements:
+- Standard PC/Laptop
+- Minimum 256MB RAM
+- Keyboard (for navigation and input)
+
+Plan of work
+Tasks/Modules                                | Person responsible | Duration
+-----------------------------------------------------------------------------------------
+1. Project Setup & UI Layout Prototyping     | [Your Name]        | June 2 - June 15
+2. Marketplace & System Tool Discovery       | [Your Name]        | June 16 - June 30
+3. Flow Generation & AI Mocking Module       | [Your Name]        | July 1 - July 20
+4. Visual Flow Execution & Simulation        | [Your Name]        | July 21 - August 10
+5. Testing, Bug Fixing, & Refinement         | [Your Name]        | August 11 - August 20
+6. Final Documentation & Review              | [Your Name]        | August 21 - August 25
